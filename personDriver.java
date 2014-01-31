@@ -6,6 +6,7 @@
 	
    public class personDriver
    {
+ 
       
       public static void printList(Person[] list)
       {
@@ -41,10 +42,9 @@
          {
             if(name.equalsIgnoreCase(list[i].getLastName())||name.equalsIgnoreCase(list[i].getFirstName()))
             {
-               System.out.println("The name "+ name+" was found in the list: " +list[i]);
-               find = true;
-               	break;
-            		
+	   	System.out.println(); 
+               	System.out.println("The name "+ name+" was found in the list: " +list[i]);
+	        find = true;
             }
 	}
 				
@@ -56,7 +56,7 @@
       public static void main(String[] args)
       {
          String name;
-         Person[] person = new Person[10];
+         Person[] person = new Person[11];
       	
          person[0] = new Person("Orange", "Ball", "exampple1@gmail.com");
          person[1] = new Person("Luis", "Luna", "example2@gmail.com");
@@ -68,7 +68,7 @@
          person[7] = new Person("Lady", "Gaga", "example8@gmail.com");
          person[8] = new Person("Beyonce", "Knowles", "example9@gmail.com");
          person[9] = new Person("Rice", "Beans", "example10@gmail.com");
-	 
+	 person[10] = new Person("Luis", "Luna", "engineerluna@gmail.com"); 
       	
        
          System.out.println("List of people");
@@ -81,6 +81,7 @@
          printList(person);
       	
          System.out.println();
+
       	//Input name that user would like to look for
          Scanner input = new Scanner(System.in);
          System.out.println("Input name or last name to search for: " );
