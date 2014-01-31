@@ -17,6 +17,7 @@ Kite, Yoyo E-mail: example7@gmail.com
 Gaga, Lady E-mail: example8@gmail.com
 Knowles, Beyonce E-mail: example9@gmail.com
 Beans, Rice E-mail: example10@gmail.com
+Luna, Luis E-mail: engineerluna@gmail.com
 
 List of people when sorted
 Ball, Orange E-mail: exampple1@gmail.com
@@ -29,10 +30,14 @@ Gaga, Lady E-mail: example8@gmail.com
 Kite, Yoyo E-mail: example7@gmail.com
 Knowles, Beyonce E-mail: example9@gmail.com
 Luna, Luis E-mail: example2@gmail.com
+Luna, Luis E-mail: engineerluna@gmail.com
 
 Input name or last name to search for: 
 Luna
+
 The name Luna was found in the list: Luna, Luis E-mail: example2@gmail.com
+
+The name Luna was found in the list: Luna, Luis E-mail: engineerluna@gmail.com
 
 
 
